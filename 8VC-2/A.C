@@ -1,0 +1,2 @@
+
+#include <cstdio> #include <cstring> using namespace std; int main() { int m[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}, a, b, cnt = 0, left; scanf("%d%d", &a, &b); left = m[a - 1]; if(b != 1) { left -= (8-b); cnt = 1; } if(left % 7 == 0) cnt += (left / 7); else cnt += (left / 7 + 1); printf("%d\n", cnt); return 0; }

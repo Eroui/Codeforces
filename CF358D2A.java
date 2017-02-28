@@ -1,5 +1,7 @@
 import java.util.*;
 
+// Verdic  = WA
+
 public class CF358D2A{
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);

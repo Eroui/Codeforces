@@ -5,7 +5,7 @@ import java.io.*;
 
 /**
  * @Author Eroui Abdelaziz <kapi.abdel@gmail.com>
- * Veridc: Not Yet Submitted
+ * @veridc: Wrong Answer
  */
 
 class Main
